@@ -9,8 +9,6 @@
     "server": "nodemon index.js --exec babel-node --presets babel-preset-env",
     "client": "npm start --prefix fitnesscare",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix fitnesscare && npm run build --prefix fitnesscare"
-  
-   
   },
   "author": "Suman",
   "license": "ISC",
@@ -25,7 +23,9 @@
     "lodash": "^4.17.20",
     "mongoose": "^5.10.0",
     "morgan": "^1.10.0",
-    "nodemailer": "^6.4.11",
+    "nodemailer": "^6.4.11"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.4"
   }
 }
