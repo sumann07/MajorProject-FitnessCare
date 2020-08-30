@@ -1,0 +1,21 @@
+.navbar{
+background-color: white !important;
+}
+.navbar-brand{
+  font-size: 35px !important;
+  font-weight: 900;
+  color:#0f4c75 !important;
+  
+}
+.navbar a{
+font-size: 22px ;
+color:#0f4c75 !important;
+}
+.navbar a:hover{
+color:#ed6663 !important;
+}
+.menu_active{
+font-weight: bold;
+font-weight: 800 !important;
+border-bottom: #ed6663;
+}

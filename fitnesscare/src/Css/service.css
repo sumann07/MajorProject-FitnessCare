@@ -1,0 +1,38 @@
+.service{
+    /* margin-left: 170px; */
+    font-size:20px !important;
+    font-weight:bold;
+    color:#0f4c75;
+    margin-top: 20px;
+}
+.lab{
+    font-size: 25px;
+    margin-top:20px;
+    margin-left:20px;
+}
+.break{
+    font-size: 25px;
+    margin-top:25px;
+    font-weight:500;
+    background-color: #0f4c75;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding:3px 8px;
+  color: #ffff;
+ 
+  border-radius: 20px;
+  transition: 0.5s;
+  border:2px solid  #0f4c75;
+  text-decoration: none;
+  margin-left:20px;
+  
+}
+.break:focus{
+    outline: none;
+}
+.h2{
+    color:#0f4c75;
+    font-size: 35px;
+    margin-top:50px;
+    border-style: none;
+}
