@@ -36,7 +36,7 @@ app.use(
   })
 );
 
-if (isdevelopement) {
+if (isDevelopment) {
   // production
   // app.use(cors({ origin: CLIENT_URL, optionsSuccessStatus: 200 }));
   app.use(cors());
