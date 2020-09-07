@@ -5,13 +5,13 @@ const User = require("../models/auth");
  
 
 var transport = nodemailer.createTransport({
-    service: "gmail",
-    // port: 2525,
-    auth: {
-      user: "77spartann@gmail.com",
-      pass: "8877093019"
-    }
-  });
+  host: "smtp.mailtrap.io",
+  port: 2525,
+  auth: {
+    user: "250daaa417c851",
+    pass: "eafa4b441f0feb"
+  }
+});
 
   exports.signUp = (req, res) => {
     const { name, email, password } = req.body;
